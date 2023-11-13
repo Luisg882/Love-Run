@@ -44,6 +44,7 @@ h1 {
     letter-spacing: 2px;
     color: #252525;
     left: 0;
+    font-size: x-large;
 }
 
 #menu {
@@ -93,10 +94,36 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 40px;
 }
 
 /* Footer */
 
 footer {
     background-color: orange;
+}
+
+/* Media query: tablets and larger (768px and up) */
+
+@media screen and (min-width: 768px) {
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right:  1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
