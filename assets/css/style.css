@@ -118,27 +118,6 @@ hr {
      margin-top: 40px;
  }
 
- /* Resons section */
-
- #reasons {
-    margin: 20px auto;
- }
-
- #benefits > h2 {
-    font-size: 135%;
-    margin-bottom: 20px;
- }
-
- #benefits-physical>div, #benefits-mental>div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
- #benefits p{
-    padding: 0 20px;
-    font-size: .75rem;
- }
-
  /* Hero section */
 
  #hero {
@@ -162,6 +141,44 @@ hr {
  #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
  }
+
+  /* Resons section */
+
+  #reasons {
+    margin: 20px auto;
+ }
+
+ #benefits > h2 {
+    font-size: 135%;
+    margin-bottom: 20px;
+ }
+
+ #benefits-physical > div, #benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+ #benefits p{
+    padding: 0 20px;
+    font-size: .75rem;
+ }
+
+#circle-cover-background {
+    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+    width: 90vw; 
+    height: 90vw;    
+    border-radius: 50%;
+    margin-bottom: 20px;
+    max-width: 300px;   
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
  /* Footer */
 
  #social-networks {
@@ -219,14 +236,7 @@ hr {
         right: 50px;
      }
 
-     #hero {
-        position: absolute;
-        height: 85%;
-     }
-
-     footer {
-        position: relative;
-     }
+     
  }
 
  /* Media query: devices lager than 992px */
