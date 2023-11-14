@@ -44,6 +44,11 @@ h3 {
     left: 0;
     font-size: medium;
 }
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
  /* Header */
 
  header {
@@ -111,6 +116,27 @@ h3 {
      /* Make main element take up any surplus space to push footer down */
      flex: 1 0 auto;
      margin-top: 40px;
+ }
+
+ /* Resons section */
+
+ #reasons {
+    margin: 20px auto;
+ }
+
+ #benefits > h2 {
+    font-size: 135%;
+    margin-bottom: 20px;
+ }
+
+ #benefits-physical>div, #benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+ #benefits p{
+    padding: 0 20px;
+    font-size: .75rem;
  }
 
  /* Hero section */
