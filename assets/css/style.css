@@ -1,6 +1,5 @@
  /* Google fonts import */
  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Pixelify+Sans&family=Young+Serif&display=swap');
-
  /* Asterisk wildcare selector to override default styles added by the browser */
  * {
      padding: 0;
@@ -19,6 +18,32 @@
      font-family: 'Pixelify Sans', sans-serif;
  }
 
+ h1 {
+    font-family: 'Agbalumo', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+    left: 0;
+    font-size: x-large;
+}
+
+h2 {
+    font-family: 'Agbalumo', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+    left: 0;
+    font-size: large;
+}
+
+h3 {
+    font-family: 'Agbalumo', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+    left: 0;
+    font-size: medium;
+}
  /* Header */
 
  header {
@@ -38,14 +63,6 @@
      color: inherit;
  }
 
- h1 {
-     font-family: 'Agbalumo', sans-serif;
-     text-transform: uppercase;
-     letter-spacing: 2px;
-     color: #252525;
-     left: 0;
-     font-size: x-large;
- }
 
  #menu {
      list-style: none;
@@ -102,8 +119,23 @@
     height: 546.532px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
  }
 
+ #cover-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+ }
+
+ #cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+ }
  /* Footer */
 
  #social-networks {
@@ -153,6 +185,21 @@
 
      main {
          margin-top: 52px;
+     }
+
+     /* Hero */
+     #cover-text {
+        width: 300px;
+        right: 50px;
+     }
+
+     #hero {
+        position: absolute;
+        height: 85%;
+     }
+
+     footer {
+        position: relative;
      }
  }
 
