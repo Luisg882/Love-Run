@@ -280,7 +280,7 @@ hr {
 
     #benefits > div {
         flex: 1;
-        justify-content: center;
+        align-self: center;
     }
 
     #benefits-image {
@@ -289,16 +289,14 @@ hr {
 
     #benefits-mental {
         order: 1;
-        justify-content: center;
+        align-self: center;
     }
 
     #benefits-mental > div {
         align-self: center;
-        justify-content: center;
     }
 
     #benefits-physical > div {
         align-self: center;
-        justify-content: center;
     }
 }
