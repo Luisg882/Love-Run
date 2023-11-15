@@ -204,6 +204,17 @@ hr {
 #times h3 {
     color: #fafafa;
 }
+
+/* Gallery styles */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
  /* Footer */
 
  #social-networks {
