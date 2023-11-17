@@ -215,6 +215,16 @@ hr {
     line-height: 0;
 }
 
+/* Sign up styles */
+
+#get-you {
+    text-transform: uppercase;
+}
+
+#email {
+    width: 150px;
+}
+
  /* Footer */
 
  #social-networks {
@@ -230,6 +240,14 @@ hr {
      padding: 5%;
      color: #3a3a3a;
  }
+
+/* Media Query: large or lanscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
  /* Media query: tablets and larger (768px and up) */
 
@@ -294,6 +312,11 @@ hr {
         align-self: flex-end;
         order: -1;
      }
+     
+     #photos {
+        column-count: 3;
+        column-gap: 0;
+     }
  }
 
 
@@ -302,6 +325,11 @@ hr {
  @media screen and (min-width: 992px) {
      #menu a:hover {
          border-bottom: 1px solid #3a3a3a;
+     }
+
+     #photos {
+        column-count: 4;
+        column-gap: 0;
      }
  }
 
@@ -336,4 +364,9 @@ hr {
     #benefits-physical > div {
         align-self: center;
     }
+
+    #photos {
+        column-count: 4;
+        column-gap: 0;
+     }
 }
